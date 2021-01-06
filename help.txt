@@ -1,2 +1,8 @@
 Skal den være der?
 <meta name="robots" content="noindex">
+
+*) For at undgå problemer med GitHub, skal videofiler (bl.a. mp4 filer) udelades fra dit
+GitHub-repository. 
+må der så overhoved være film? og hvordan fjerner man dem fra github?
+
+skal index og forside være sepearte? 
