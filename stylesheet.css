@@ -4,6 +4,9 @@ img {
 
 /*Styletile*/
 
+
+/*width*/
+
 .icon {
     width: 300px;
 }
@@ -20,4 +23,146 @@ img {
     width: 234px;
 }
 
+/*width*/
+
+body {
+    margin: 0;
+    background-image: url("assetliste/baggrund.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+#styletile {
+    margin: 5vw;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #D6C97E;
+    font-size: 5rem;
+    font-weight: 500;
+}
+h2 {
+    font-family: 'Sacramento', cursive;
+    color: #D6C97E;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.h22 {
+    font-family: 'Sacramento', cursive;
+    color: #581028;
+    font-size: 2rem;
+    font-weight: 500;
+}
+h3 {
+    font-family: lato;
+    color: #D6C97E;
+    letter-spacing: 0.12vw;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+p {
+    font-family: lato;
+    color: #D6C97E;
+    letter-spacing: 0.12vw;
+    font-weight: 500;
+    font-size: 1rem;
+}
+a {
+    font-family: lato;
+    color: #D6C97E;
+    letter-spacing: 0.12vw;
+    font-weight: 500;
+    font-size: 1rem;
+}
+a:hover {
+    color: #ffffff;
+}
+#knap {
+    background-image: url(assetliste/knap.svg);
+    background-size: cover;
+    width: 21vw;
+    height: 7vw;
+}
+#kontakt {
+    text-align: center;
+    padding-top: 2vw;
+}
+#kontakt a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.colors {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 50px;
+    width: 40vw;
+}
+.colorbox {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: white;
+}
+.color_1 {
+    background-color: #211869;
+}
+.color_2 {
+    background-color: #582b52;
+}
+.color_3 {
+    background-color: #581028;
+}
+.color_4 {
+    background-color: #c7061b;
+}
+.color_5 {
+    background-color: #f55b15;
+}
+.color_6 {
+    background-color: #fed700;
+}
+.color_7 {
+    background-color: #d6c97e;
+}
+.color_8 {
+    background-color: #ffffff;
+}
+
 /*Styletile*/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
