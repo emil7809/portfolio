@@ -8,3 +8,5 @@ i JS gør nav støre når burger menu kommer ned
 fin pus X på burger menu
 
 fix billeder så højden passer med gradienten 
+
+logo icon flexe med forside
