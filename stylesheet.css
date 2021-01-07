@@ -783,12 +783,48 @@ footer .icons {
 video {
     width: 100%;
 }
-#emilyhoolahanside h2 {
+#emilyhoolahanside h1 {
     text-align: center;
     margin-top: 80px;
+    font-size: 3rem;
 }
 footer {
     margin-top: 80vw;
+}
+@media only screen and (min-width: 600px) {
+    #emilyhoolahanside .img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vw;
+        width: 20vw;
+    }
+    #emilyhoolahanside #me {
+        height: 50vw;
+        margin-top: 20vw;
+    }
+    #me .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 50vw;
+    }
+    #me .section_wrapper .txt {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    #me .section_wrapper .img2 {
+        margin-top: -130px;
+    }
+    #film {
+        margin-top: 50vw;
+    }
+    #film h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 5rem;
+    }
+    footer {
+        margin-top: 20vw;
+    }
 }
 
 /*Emily Hoolahan*/
