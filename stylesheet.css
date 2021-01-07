@@ -326,6 +326,7 @@ footer .icons {
 #forside {
     margin: 5vw;
     position: relative;
+    height: 150vw;
 }
 #forside #splash {
     text-align: center;
@@ -349,11 +350,15 @@ footer .icons {
 
 /*Portfolio*/
 
+#forside #portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 #forside #portfolio #galleri_row {
     position: relative;
     width: 100%;
     height: 60vw;
-    margin-top: 100px;
+    margin-top: 100;
     margin-bottom: 100px;
     overflow: hidden;
 }
@@ -456,6 +461,18 @@ footer .icons {
 
 /*Portfolio*/
 
+
+/*Emily Hoolahan*/
+
+#forside #emilyhoolahan .h1 {
+    text-align: center;
+}
+
+/*Emily Hoolahan*/
+
+footer {
+    padding-top: 900px;
+}
 
 /*Forside*/
 
