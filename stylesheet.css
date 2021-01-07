@@ -755,6 +755,10 @@ footer .icons {
 
 /*Emily Hoolahan*/
 
+#emilyhoolahanside {
+    margin: 5vw;
+    position: relative;
+}
 #emilyhoolahanside .img {
     margin-left: auto;
     margin-right: auto;
@@ -764,6 +768,27 @@ footer .icons {
 #emilyhoolahanside .h1 {
     text-align: center;
     margin-top: -70px;
+}
+#emilyhoolahanside #me {
+    height: 200vw;
+    margin-top: 40vw;
+    padding: 5vw;
+    background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
+}
+#film {
+    margin-top: 150vw;
+    padding: 5vw;
+    background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
+}
+video {
+    width: 100%;
+}
+#emilyhoolahanside h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+footer {
+    margin-top: 80vw;
 }
 
 /*Emily Hoolahan*/
