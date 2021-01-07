@@ -317,6 +317,30 @@ footer .icons {
 /*Footer*/
 
 
+/*Forside*/
+
+#forside {
+    margin: 5vw;
+    position: relative;
+}
+#forside #splash {
+    text-align: center;
+}
+#forside #splash .emily_hoolahan_txt_container {
+    position: absolute;
+    top: 21vw;
+    left: 55vw;
+}
+#forside #splash .emily_hoolahan_txt {
+    background-image: url(assetliste/emilyhoolahantxt.svg);
+    background-size: cover;
+    width: 28vw;
+    height: 5vw;
+}
+
+/*Forside*/
+
+
 /*Animationer*/
 
 .hidden {
