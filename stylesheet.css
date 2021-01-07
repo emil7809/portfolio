@@ -337,34 +337,32 @@ footer .icons {
     text-align: center;
     margin-top: 100vw;
     padding-bottom: 30vw;
+    opacity: 1;
 }
 #forside #splash #emily_hoolahan_txt_container {
     position: absolute;
+    /*
     top: 20vw;
     left: 55vw;
+*/
 }
 #forside #splash .emily_hoolahan_txt {
     background-image: url(assetliste/emilyhoolahantxt.svg);
     background-size: cover;
     width: 100px;
     height: 18px;
-}
-
-/*#forside {
-    margin: 5vw;
-    position: relative;
-    height: 150vw;
+    opacity: 0;
 }
 #forside #splash #emily_hoolahan_txt_container {
     position: absolute;
+    left: 1vw;
 }
 #forside #splash #emily_hoolahan_txt_sprite {
-    border-image: url(assetliste/portfoliotxt.svg);
+    background-image: url(assetliste/portfoliotxt.svg);
     background-size: cover;
-    width: 370px;
-    height: 150px;
-}*/
-
+    width: 80vw;
+    height: 32vw;
+}
 
 /*Splash*/
 
@@ -372,7 +370,7 @@ footer .icons {
 /*Portfolio*/
 
 #forside #portfolio {
-    margin-top: 100px;
+    margin-top: 290px;
     margin-bottom: 2 00px;
 }
 #forside #portfolio #galleri_row {
