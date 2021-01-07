@@ -74,24 +74,38 @@ a {
     letter-spacing: 0.12vw;
     font-weight: 500;
     font-size: 1rem;
+    text-decoration: none;
 }
 a:hover {
     color: #ffffff;
 }
 #knap {
+    position: absolute;
     background-image: url(assetliste/knap.svg);
     background-size: cover;
     width: 21vw;
     height: 7vw;
+    left: 30vw;
 }
 #kontakt {
+    background-image: url(assetliste/kontakt.svg);
+    position: absolute;
+    background-size: cover;
+    width: 12vw;
+    height: 3vw;
+    left: 4.5vw;
+    top: 2vw;
+    /*
     text-align: center;
     padding-top: 2vw;
+*/
 }
-#kontakt a {
+
+/*#kontakt a {
     text-decoration: none;
     font-size: 1.5rem;
-}
+}*/
+
 .colors {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
@@ -132,10 +146,117 @@ a:hover {
 /*Styletile*/
 
 
-/**/
+/*Nav*/
+
+nav {
+    height: 10vw;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
+}
+nav img {
+    width: 16px;
+}
+nav .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo {
+    width: 30%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#menuknap_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-top: 8px;
+}
+#menuknap {
+    display: inline-block;
+}
+#menu {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 0;
+}
+#menu li {
+    padding-bottom: 20px;
+    padding-right: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    text-align: right;
+}
+
+/*burger*/
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 34px;
+    height: 1px;
+    background-color: #d6c97e;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*burger*/
 
 
-/**/
+/*over600px*/
+
+@media only screen and (min-width: 600px) {
+    nav .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #menuknap {
+        display: none;
+    }
+    #menu.hidden {
+        opacity: 1;
+    }
+    #menu {
+        width: 190%;
+    }
+    #menu li {
+        display: inline-block;
+        box-shadow: none;
+    }
+    nav {
+        display: block;
+        text-align: right;
+    }
+    .logo {
+        width: 10vw;
+    }
+}
+
+/*over600px*/
+
+
+/*Nav*/
+
+
+/*Animationer*/
+
+.hidden {
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*Animationer*/
 
 
 /**/

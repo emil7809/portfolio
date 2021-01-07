@@ -8,3 +8,7 @@ må der så overhoved være film? og hvordan fjerner man dem fra github?
 skal index og forside være sepearte? 
 
 font weight er en luder
+
+knap ... hvad gær jeg med dig?
+
+bagrund vil ikke være responsiv når jeg sætter den til mobil version?? hva?
