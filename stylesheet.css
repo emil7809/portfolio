@@ -162,6 +162,7 @@ nav {
     position: fixed;
     top: 0;
     background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
+    z-index: 50;
 }
 nav img {
     width: 16px;
@@ -319,12 +320,17 @@ footer .icons {
 
 /*Forside*/
 
+
+/*Splash*/
+
 #forside {
     margin: 5vw;
     position: relative;
 }
 #forside #splash {
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 #forside #splash .emily_hoolahan_txt_container {
     position: absolute;
@@ -337,6 +343,119 @@ footer .icons {
     width: 28vw;
     height: 5vw;
 }
+
+/*Splash*/
+
+
+/*Portfolio*/
+
+#forside #portfolio #galleri_row {
+    position: relative;
+    width: 100%;
+    height: 60vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+#splash_container {
+    position: absolute;
+    clip: rect(0px, 8vw, 190px, 1vw);
+    left: -2vw;
+}
+#splash_sprite {
+    background-image: url(billeder/splash.png);
+    background-size: cover;
+    width: 9vw;
+    height: 51vw;
+    cursor: pointer;
+}
+#ide_container {
+    position: absolute;
+    clip: rect(0px, 8vw, 190px, 1vw);
+    left: 7vw;
+}
+#ide_sprite {
+    background-image: url(billeder/ide.png);
+    background-size: cover;
+    width: 9vw;
+    height: 51vw;
+    cursor: pointer;
+}
+#prototype_container {
+    position: absolute;
+    clip: rect(0px, 8vw, 190px, 1vw);
+    left: 16vw;
+}
+#prototype_sprite {
+    background-image: url(billeder/prototype.png);
+    background-size: cover;
+    width: 9vw;
+    height: 51vw;
+    cursor: pointer;
+}
+#pitch_container {
+    position: absolute;
+    clip: rect(0px, 8vw, 190px, 1vw);
+    left: 25vw;
+}
+#pitch_sprite {
+    background-image: url(billeder/pitch.png);
+    background-size: cover;
+    width: 9vw;
+    height: 51vw;
+    cursor: pointer;
+}
+#ass_container {
+    position: absolute;
+    clip: rect(0px, 8vw, 190px, 1vw);
+    left: 34vw;
+}
+#ass_sprite {
+    background-image: url(billeder/assitliste.png);
+    background-size: cover;
+    width: 9vw;
+    height: 51vw;
+    cursor: pointer;
+}
+#spil_container {
+    position: absolute;
+    clip: rect(0px, 8vw, 190px, 1vw);
+    left: 43vw;
+}
+#spil_sprite {
+    background-image: url(billeder/spil.png);
+    background-size: cover;
+    width: 9vw;
+    height: 51vw;
+    cursor: pointer;
+}
+#pilot_container {
+    position: absolute;
+    clip: rect(0px, 8vw, 190px, 1vw);
+    left: 52vw;
+}
+#pilot_sprite {
+    background-image: url(billeder/pilot.png);
+    background-size: cover;
+    width: 9vw;
+    height: 51vw;
+    cursor: pointer;
+}
+#redesign_container {
+    position: absolute;
+    clip: rect(0px, 8vw, 190px, 1vw);
+    left: 61vw;
+}
+#redesign_sprite {
+    background-image: url(billeder/redesign.png);
+    background-size: cover;
+    width: 9vw;
+    height: 51vw;
+    cursor: pointer;
+}
+
+/*Portfolio*/
+
 
 /*Forside*/
 

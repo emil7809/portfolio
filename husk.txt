@@ -6,3 +6,5 @@ NAv kommer til at tage meget mer earbejde
 
 i JS gør nav støre når burger menu kommer ned
 fin pus X på burger menu
+
+fix billeder så højden passer med gradienten 
