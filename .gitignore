@@ -3,7 +3,7 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
-.mp4
-emilyhoolahan.mp4
-help.txt
-husk.txt
+
+/emilyhoolahan.mp4/
+/help.txt/
+/husk.txt/
