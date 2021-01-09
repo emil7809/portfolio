@@ -312,6 +312,23 @@ footer .icons {
     margin-right: auto;
     width: 24%;
 }
+@media only screen and (min-width: 600px) {
+    footer {
+        height: 30vw;
+        padding-top: 0vw;
+    }
+    footer #footer_section {
+        height: 30vw;
+        margin-top: 20vw;
+    }
+    .line {
+        width: 90%;
+        margin-top: 10vw;
+    }
+    footer .icons {
+        margin-top: 10px;
+    }
+}
 
 /*Footer*/
 
@@ -349,10 +366,6 @@ footer .icons {
 }
 #forside #splash #emily_hoolahan_txt_container {
     position: absolute;
-    /*
-    top: 20vw;
-    left: 55vw;
-*/
 }
 #forside #splash .emily_hoolahan_txt {
     background-image: url(assetliste/emilyhoolahantxt.svg);
@@ -379,11 +392,10 @@ footer .icons {
 
 #forside #portfolio {
     margin-top: 290px;
-    margin-bottom: 2 00px;
+    margin-left: -3vw;
 }
 #forside #portfolio #galleri_row {
     position: relative;
-    width: 100%;
     height: 140vw;
     margin-top: 100;
     margin-bottom: 10px;
@@ -491,9 +503,6 @@ footer .icons {
     height: 130vw;
     cursor: pointer;
 }
-
-/**/
-
 #forside #portfolio h1 {
     margin-top: 0px;
     text-align: center;
@@ -515,13 +524,6 @@ footer .icons {
     margin-top: -70px;
 }
 
-/*
-#forside_footer #footer_section {
-    margin-top: 1500px;
-}
-*/
-
-
 /*Emily Hoolahan*/
 
 @media only screen and (min-width: 600px) {
@@ -539,10 +541,6 @@ footer .icons {
     }
     #forside #splash #emily_hoolahan_txt_container {
         position: absolute;
-        /*
-    top: 20vw;
-    left: 55vw;
-*/
     }
     #forside #splash .emily_hoolahan_txt {
         background-image: url(assetliste/emilyhoolahantxt.svg);
@@ -692,46 +690,6 @@ footer .icons {
         margin-top: -70px;
     }
     /*Emily Hoolahan*/
-    #footer_emilyhoolahan {
-        margin-top: 150px;
-        height: 30vw;
-        bottom: 0;
-        padding-top: 35px;
-        background-image: linear-gradient(0deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
-    }
-    footer .txt {
-        text-align: center;
-    }
-    footer .button {
-        position: absolute;
-        background-image: url(assetliste/knap.svg);
-        background-size: cover;
-        width: 21vw;
-        height: 7vw;
-        left: 39vw;
-        margin: 5px;
-    }
-    .line {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        height: 0.1vw;
-        background-color: #d6c97e;
-        margin-top: 200px;
-    }
-    footer .icons {
-        margin-top: 10px;
-    }
-    .SoMe img {
-        width: 7vw;
-    }
-    .SoMe {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 24%;
-    }
 }
 
 /*Forside*/
@@ -833,6 +791,7 @@ video {
     position: relative;
 }
 #portfolio #portfolio_splash {
+    margin-left: -3vw;
     margin-top: 100px;
 }
 #portfolio h2 {
@@ -913,7 +872,7 @@ video {
     margin-bottom: 40vw;
 }
 footer #portfolio_footer {
-    margin-top: 600vw;
+    margin-top: 100vw;
 }
 @media only screen and (min-width: 600px) {
     #portfolio img {
@@ -942,14 +901,13 @@ footer #portfolio_footer {
     }
     /*tema2*/
     #portfolio #tema2 {
-        height: 50vw;
+        height: 40vw;
         margin-top: 30vw;
     }
     #portfolio #tema2 .section_wrapper .txt {
         display: grid;
         grid-template-rows: 1fr 1fr;
-        padding-left: 80px;
-        height: 50vw;
+        height: 40vw;
     }
     #portfolio #tema2 .section_wrapper {
         height: 100vw;
@@ -963,18 +921,18 @@ footer #portfolio_footer {
     /*tema2*/
     /*tema3*/
     #portfolio #tema3 {
-        height: 195vw;
-        margin-top: 30vw;
+        height: 150vw;
+        margin-top: 25vw;
     }
     #portfolio #tema3 .section_wrapper_1 .txt {
         display: grid;
         grid-template-rows: 1fr 1fr;
         padding-right: 80px;
-        height: 55vw;
-        margin-top: 1vw;
+        height: 42vw;
+        margin-top: 0vw;
     }
     #portfolio #tema3 .section_wrapper_1 {
-        height: 80vw;
+        height: 60vw;
         margin-top: 1vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -989,7 +947,7 @@ footer #portfolio_footer {
         padding-top: 0vw;
     }
     #portfolio #tema3 .section_wrapper_2 {
-        height: 40vw;
+        height: 25vw;
         margin-top: 1vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1001,7 +959,7 @@ footer #portfolio_footer {
         padding-right: 80px;
         height: 15vw;
         margin-top: 1vw;
-        padding-top: 45vw;
+        padding-top: 30vw;
     }
     #portfolio #tema3 .section_wrapper_3 {
         height: 40vw;
@@ -1026,7 +984,7 @@ footer #portfolio_footer {
         margin-top: 1vw;
     }
     #portfolio #tema4 .section_wrapper_1 {
-        height: 80vw;
+        height: 60vw;
         margin-top: 1vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1047,23 +1005,23 @@ footer #portfolio_footer {
         grid-template-columns: 1fr 1fr;
     }
     #portfolio #tema4 .section_wrapper_2 .img {
-        margin-top: -10vw;
+        margin-top: -5vw;
     }
     /*tema4*/
     /*tema5*/
     #portfolio #tema5 {
         height: 100vw;
-        margin-top: 30vw;
+        margin-top: 20vw;
     }
     #portfolio #tema5 .section_wrapper_1 .txt {
         display: grid;
         grid-template-rows: 1fr 1fr;
         padding-right: 80px;
-        height: 55vw;
+        height: 40vw;
         margin-top: 1vw;
     }
     #portfolio #tema5 .section_wrapper_1 {
-        height: 80vw;
+        height: 60vw;
         margin-top: 1vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1072,7 +1030,7 @@ footer #portfolio_footer {
         margin-top: -10vw;
     }
     #portfolio #tema5 .section_wrapper_2 .txt {
-        padding-left: 80px;
+        padding-right: 80px;
         height: 25vw;
         margin-top: 1vw;
         padding-top: 0vw;
@@ -1084,9 +1042,13 @@ footer #portfolio_footer {
         grid-template-columns: 1fr 1fr;
     }
     #portfolio #tema5 .section_wrapper_2 .img {
-        margin-top: -10vw;
+        margin-top: 5vw;
+        margin-left: 5vw;
     }
     /*tema5*/
+    footer #portfolio_footer {
+        margin-top: 30vw;
+    }
 }
 
 /*Portfolio*/
