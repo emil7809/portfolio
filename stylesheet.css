@@ -870,13 +870,58 @@ video {
     padding: 5vw;
     background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
 }
+
+/*
 #tema_nav nav {
     text-align: center;
     padding-top: 20px;
-    position: sticky;
+    margin-top: 520px;
 }
+
+
 #tema_nav nav a {
     padding: 10px;
+}
+.nav_class {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+*/
+
+
+/*
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.sticky + .content {
+    padding-top: 102px;
+}
+*/
+
+.nav_class {
+    height: 13vw;
+    width: 100vw;
+    background-image: linear-gradient(0deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
+    z-index: 50;
+    padding-top: 5vw;
+    text-align: center;
+    margin: -5vw;
+}
+.nav_class a {
+    padding: 10px;
+}
+.sticky {
+    position: fixed;
+    top: 20vw;
+}
+.content {
+    padding: 16px;
+}
+.sticky + .content {
+    padding-top: 102px;
 }
 #portfolio #tema2 .img {
     margin-top: -60px;
