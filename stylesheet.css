@@ -164,7 +164,7 @@ a:hover {
 /*Nav*/
 
 nav {
-    height: 15vw;
+    height: 15px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -188,7 +188,7 @@ nav .section_wrapper {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 #menuknap {
     display: inline-block;
@@ -229,21 +229,6 @@ nav .section_wrapper {
     transform: rotate(45deg) translate(-2px, -8px);
 }
 
-/*
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-.change .bar2 {
-    opacity: 0;
-}
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
-*/
-
-
 /*burger*/
 
 
@@ -271,7 +256,7 @@ nav .section_wrapper {
     }
     .logo {
         width: 10vw;
-        margin-top: 30px;
+        margin-top: 8px;
     }
     nav img {
         width: 32px;
@@ -929,6 +914,71 @@ video {
 }
 footer #portfolio_footer {
     margin-top: 600vw;
+}
+@media only screen and (min-width: 600px) {
+    #portfolio #portfolio_splash {
+        margin-top: 10vw;
+        height: 100vw;
+    }
+    #portfolio #portfolio_splash h1 {
+        margin-top: -89vw;
+        text-align: center;
+    }
+    .nav_class {
+        height: 5vw;
+        width: 100vw;
+        z-index: 50;
+        margin: -5vw;
+        margin-top: -35vw;
+    }
+    .nav_class a {
+        padding: 100px;
+    }
+    #tema_nav {
+        top: 5vw;
+    }
+    /*tema2*/
+    #portfolio #tema2 {
+        height: 50vw;
+        margin-top: 30vw;
+    }
+    #portfolio #tema2 .section_wrapper .txt {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 80px;
+        height: 50vw;
+    }
+    #portfolio #tema2 .section_wrapper {
+        height: 100vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #portfolio #tema2 .img {
+        margin-top: -10vw;
+    }
+    /*tema2*/
+    /*tema3*/
+    #portfolio #tema3 {
+        height: 50vw;
+        margin-top: 30vw;
+    }
+    #portfolio #tema3 .section_wrapper_1 .txt {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 80px;
+        height: 50vw;
+    }
+    #portfolio #tema3 .section_wrapper_1 {
+        height: 100vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #portfolio #tema2 .img {
+        margin-top: -10vw;
+    }
+    /*tema3*/
 }
 
 /*Portfolio*/

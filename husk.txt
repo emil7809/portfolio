@@ -26,3 +26,11 @@ make cirkle witch less dark
 fik lille plet på cirkler, kan kun se dem på redesign 
 
 hvorfor er font wight i nav og footer støre på forsiden? 
+
+fik nav så den ikke står på hinanden i portfolio
+
+clean up all unnedded code
+
+find en måde at få pdf filer op
+
+fix rings around cirkles on final prototype 
