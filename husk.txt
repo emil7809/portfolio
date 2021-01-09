@@ -36,3 +36,5 @@ find en måde at få pdf filer op
 fix rings around cirkles on final prototype 
 
 skal billeder på porfolie være mindre?
+
+tilføj tilbage knap på alle opgaver pdf sider 

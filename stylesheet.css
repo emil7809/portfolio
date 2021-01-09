@@ -860,7 +860,7 @@ video {
     margin-top: 0vw;
 }
 #portfolio #tema5 {
-    height: 200vw;
+    height: 680vw;
     margin-top: 350vw;
     padding: 5vw;
     background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
@@ -871,7 +871,7 @@ video {
 #portfolio #tema5 .txt {
     margin-bottom: 40vw;
 }
-footer #portfolio_footer {
+footer #portfolio_footer #footer_section {
     margin-top: 100vw;
 }
 @media only screen and (min-width: 600px) {
@@ -1046,7 +1046,7 @@ footer #portfolio_footer {
         margin-left: 5vw;
     }
     /*tema5*/
-    footer #portfolio_footer {
+    footer #portfolio_footer #footer_section {
         margin-top: 30vw;
     }
 }
@@ -1057,6 +1057,7 @@ footer #portfolio_footer {
 /*Animationer*/
 
 .hidden {
+    opacity: 0;
     opacity: 0;
     cursor: pointer;
 }
