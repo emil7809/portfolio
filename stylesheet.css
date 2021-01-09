@@ -916,6 +916,9 @@ footer #portfolio_footer {
     margin-top: 600vw;
 }
 @media only screen and (min-width: 600px) {
+    #portfolio img {
+        width: 30vw;
+    }
     #portfolio #portfolio_splash {
         margin-top: 10vw;
         height: 100vw;
@@ -960,25 +963,130 @@ footer #portfolio_footer {
     /*tema2*/
     /*tema3*/
     #portfolio #tema3 {
-        height: 50vw;
+        height: 195vw;
         margin-top: 30vw;
     }
     #portfolio #tema3 .section_wrapper_1 .txt {
         display: grid;
         grid-template-rows: 1fr 1fr;
-        padding-left: 80px;
-        height: 50vw;
+        padding-right: 80px;
+        height: 55vw;
+        margin-top: 1vw;
     }
     #portfolio #tema3 .section_wrapper_1 {
-        height: 100vw;
+        height: 80vw;
         margin-top: 1vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    #portfolio #tema2 .img {
+    #portfolio #tema3 .section_wrapper_1 .img {
         margin-top: -10vw;
     }
+    #portfolio #tema3 .section_wrapper_2 .txt {
+        padding-left: 80px;
+        height: 25vw;
+        margin-top: 1vw;
+        padding-top: 0vw;
+    }
+    #portfolio #tema3 .section_wrapper_2 {
+        height: 40vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #portfolio #tema3 .section_wrapper_2 .img {
+        margin-top: -10vw;
+    }
+    #portfolio #tema3 .section_wrapper_3 .txt {
+        padding-right: 80px;
+        height: 15vw;
+        margin-top: 1vw;
+        padding-top: 45vw;
+    }
+    #portfolio #tema3 .section_wrapper_3 {
+        height: 40vw;
+        margin-top: 15vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #portfolio #tema3 .section_wrapper_3 .img {
+        margin-top: -5vw;
+    }
     /*tema3*/
+    /*tema4*/
+    #portfolio #tema4 {
+        height: 100vw;
+        margin-top: 30vw;
+    }
+    #portfolio #tema4 .section_wrapper_1 .txt {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-right: 80px;
+        height: 55vw;
+        margin-top: 1vw;
+    }
+    #portfolio #tema4 .section_wrapper_1 {
+        height: 80vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #portfolio #tema4 .section_wrapper_1 .img {
+        margin-top: -10vw;
+    }
+    #portfolio #tema4 .section_wrapper_2 .txt {
+        padding-left: 80px;
+        height: 25vw;
+        margin-top: 1vw;
+        padding-top: 0vw;
+    }
+    #portfolio #tema4 .section_wrapper_2 {
+        height: 40vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #portfolio #tema4 .section_wrapper_2 .img {
+        margin-top: -10vw;
+    }
+    /*tema4*/
+    /*tema5*/
+    #portfolio #tema5 {
+        height: 100vw;
+        margin-top: 30vw;
+    }
+    #portfolio #tema5 .section_wrapper_1 .txt {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-right: 80px;
+        height: 55vw;
+        margin-top: 1vw;
+    }
+    #portfolio #tema5 .section_wrapper_1 {
+        height: 80vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #portfolio #tema5 .section_wrapper_1 .img {
+        margin-top: -10vw;
+    }
+    #portfolio #tema5 .section_wrapper_2 .txt {
+        padding-left: 80px;
+        height: 25vw;
+        margin-top: 1vw;
+        padding-top: 0vw;
+    }
+    #portfolio #tema5 .section_wrapper_2 {
+        height: 40vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #portfolio #tema5 .section_wrapper_2 .img {
+        margin-top: -10vw;
+    }
+    /*tema5*/
 }
 
 /*Portfolio*/

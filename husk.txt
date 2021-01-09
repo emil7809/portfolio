@@ -34,3 +34,5 @@ clean up all unnedded code
 find en måde at få pdf filer op
 
 fix rings around cirkles on final prototype 
+
+skal billeder på porfolie være mindre?
