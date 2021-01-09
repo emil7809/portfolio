@@ -164,13 +164,13 @@ a:hover {
 /*Nav*/
 
 nav {
-    height: 13vw;
+    height: 15vw;
     width: 100%;
     position: fixed;
     top: 0;
     background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
     z-index: 50;
-    padding-bottom: 10vw;
+    padding-bottom: 13vw;
 }
 nav img {
     width: 16px;
@@ -201,7 +201,7 @@ nav .section_wrapper {
 }
 #menu a {
     padding-bottom: 10px;
-    padding-right: 15px;
+    padding-right: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     box-shadow: none;
 }
@@ -864,64 +864,27 @@ video {
     margin-top: 0px;
     text-align: center;
 }
-#portfolio #tema2 {
-    height: 200vw;
-    margin-top: 95vw;
-    padding: 5vw;
-    background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
-}
-
-/*
-#tema_nav nav {
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 520px;
-}
-
-
-#tema_nav nav a {
-    padding: 10px;
-}
 .nav_class {
-    padding: 10px 16px;
-    background: #555;
-    color: #f1f1f1;
-}
-*/
-
-
-/*
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-.sticky + .content {
-    padding-top: 102px;
-}
-*/
-
-.nav_class {
-    height: 13vw;
+    height: 10vw;
     width: 100vw;
     background-image: linear-gradient(0deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
     z-index: 50;
-    padding-top: 20px;
     text-align: center;
     margin: -5vw;
 }
 .nav_class a {
     padding: 10px;
 }
-.sticky {
-    position: fixed;
+#tema_nav {
+    position: sticky;
     top: 20vw;
 }
-.content {
-    padding: 16px;
-}
-.sticky + .content {
-    padding-top: 102px;
+#portfolio #tema2 {
+    height: 200vw;
+    margin-top: 95vw;
+    padding: 5vw;
+    background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
+    margin-top: 50vw;
 }
 #portfolio #tema2 .img {
     margin-top: -60px;
@@ -931,18 +894,26 @@ video {
     margin-top: 200vw;
     padding: 5vw;
     background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
+    margin-top: 150vw;
 }
 #portfolio #tema3 .img {
-    margin-top: 30px;
+    margin-top: 20vw;
+}
+#portfolio #tema3 .txt {
+    margin-top: 20vw;
 }
 #portfolio #tema4 {
     height: 200vw;
     margin-top: 630vw;
     padding: 5vw;
     background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
+    margin-top: 690vw;
 }
 #portfolio #tema4 .img {
-    margin-top: 30px;
+    margin-top: 20vw;
+}
+#portfolio #tema4 .txt {
+    margin-top: 0vw;
 }
 #portfolio #tema5 {
     height: 200vw;
@@ -951,10 +922,13 @@ video {
     background-image: linear-gradient(180deg, rgb(88, 43, 82) 0%, rgba(39, 30, 98, 0.5368522408963585) 71%, rgba(33, 24, 105, 0) 100%);
 }
 #portfolio #tema5 .img {
-    margin-top: 30px;
+    margin-top: -20vw;
+}
+#portfolio #tema5 .txt {
+    margin-bottom: 40vw;
 }
 footer #portfolio_footer {
-    margin-top: 500vw;
+    margin-top: 600vw;
 }
 
 /*Portfolio*/

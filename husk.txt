@@ -20,3 +20,9 @@ soter i px og vw
 ryd op i koden
 
 ryd op i gentagende ID på portfolio
+
+make cirkle witch less dark 
+
+fik lille plet på cirkler, kan kun se dem på redesign 
+
+hvorfor er font wight i nav og footer støre på forsiden? 
