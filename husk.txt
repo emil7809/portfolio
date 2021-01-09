@@ -12,3 +12,5 @@ fix billeder så højden passer med gradienten
 logo icon flexe med forside
 
 tilføj bedre pause skærm på film
+
+gør noget ved a så det ikke ligner p
