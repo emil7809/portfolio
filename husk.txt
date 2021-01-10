@@ -40,3 +40,7 @@ skal billeder på porfolie være mindre?
 tilføj tilbage knap på alle opgaver pdf sider 
 
 prøv at fjerne gennemsigtigheden på container i portfolio og emily siden 
+
+SOME skal centreres bedre
+
+spørg martin om hjelp til alt det der skal regnes til at være i midten, så som tilbage knappen og send knappen og portfolio galleriet 

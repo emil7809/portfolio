@@ -41,6 +41,7 @@ img {
     height: 3vw;
     left: 4.5vw;
     top: 2vw;
+    cursor: pointer;
     /*
     text-align: center;
     padding-top: 2vw;
@@ -1095,17 +1096,6 @@ footer #portfolio_footer #footer_section {
 /*redesign_sidede*/
 
 
-/*Animationer*/
-
-.hidden {
-    opacity: 0;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/*Animationer*/
-
-
 /*kontakt*/
 
 
@@ -1122,6 +1112,7 @@ footer #portfolio_footer #footer_section {
     width: 100%;
     height: 100%;
     top: 0;
+    z-index: 50;
 }
 #kontakt_siden {
     background-color: rgba(0, 0, 0, 0.6);
@@ -1319,11 +1310,107 @@ button:hover {
 
 /*kontakt*/
 
+/*Tak for besked*/
+#besked_sendt_contaainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 60;
+}
+#besked_sendt {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+#besked_sendt .section_wrapper_element {
+    position: absolute;
+    background-image: url(assetliste/kontaktbg.svg);
+    background-size: cover;
+    width: 90vw;
+    height: 142vw;
+    top: 20vw;
+    left: 5%;
+    z-index: 20;
+}
+#besked_sendt .section_wrapper_element .h2 {
+    text-align: center;
+    margin-top: 50vw;
+}
+
+/*forms*/
+.sendBtn {
+    background-image: url(assetliste/knap.svg);
+    background-size: cover;
+    height: 10vw;
+    width: 30vw;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+button {
+    border: none;
+    background-color: rgba(0, 255, 255, 0);
+    margin-top: 10vw;
+    margin-left: 30vw;
+    cursor: pointer;
+}
+button:hover {
+    color: #ffffff;
+}
+@media only screen and (min-width: 600px) {
+    #kontakt_siden .section_wrapper_element {
+        width: 25vw;
+        height: 39vw;
+        top: 10vw;
+        left: 37.5%;
+    }
+    #kontakt_siden #besked_sendt .section_wrapper_element .h2 {
+        text-align: center;
+        margin-top: 23vw;
+        margin-bottom: -2vw;
+    }
+    #kontakt_siden #besked_sendt h2 {
+        margin-top: -10vw;
+        font-size: 3rem;
+    }
+    .sendBtn {
+        border-radius: 20px;
+        height: 3vw;
+        width: 9vw;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    button {
+        margin-top: 4.5vw;
+        margin-left: 8vw;
+    }
+}
+
+}
+
+/*Tak for besked*/
+
 /*570 900*/
 
 /* rgba(0, 0, 0, 0.22);*/
 
 /**/
+
+/*Animationer*/
+.hidden {
+    opacity: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.hidden_kontakt {
+    display: none;
+}
+
+/*Animationer*/
 
 /**/
 
