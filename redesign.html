@@ -81,7 +81,60 @@
             <img src="billeder/opgaver/redesign/05.03.01redesignogtemadokumentation_Side_34.png" alt="sid34">
             <img src="billeder/opgaver/redesign/05.03.01redesignogtemadokumentation_Side_35.png" alt="sid35">
         </section>
+        <div id="kontakt_siden_container" class="hidden_kontakt">
+            <section id="kontakt_siden">
 
+                <div class="section_wrapper_element">
+
+
+                    <div class="form_holder">
+                        <form action="javascript:takForDinBesked()">
+                            <div id="x"></div>
+                            <div class="h2">
+                                <h2>Kontakt</h2>
+                            </div>
+                            <div class="form-felt">
+                                <label>
+                                    Fulde Navn
+                                    <input placeholder="Indtast dit navn" type="text" name="fnavn" required>
+                                </label>
+                            </div>
+                            <div class="form-felt">
+                                <label>
+                                    E-mail
+                                    <input placeholder="Indtast din E-mail" type="email" name="email" required>
+                                </label>
+                            </div>
+                            <div class="form-felt">
+                                <label>
+                                    Besked
+
+                                    <textarea placeholder="Indtast din besked" name="besked" rows="5"></textarea>
+                                </label>
+
+                            </div>
+                            <div class="form-felt">
+                                <button id="sendBtn">Send</button>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <section id="besked_sendt" class="hidden_kontakt">
+                    <div class="section_wrapper_element">
+                        <div id="x2"></div>
+                        <div class="h2">
+                            <h2>Tak for din besked</h2>
+                        </div>
+                        <div class="button_felt">
+                            <button id="tilbage">Tilbage</button>
+
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
     </main>
     <footer>
         <div id="portfolio_footer">
