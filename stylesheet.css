@@ -1132,7 +1132,7 @@ footer #portfolio_footer #footer_section {
     left: 5%;
     z-index: 20;
 }
-.x {
+#x {
     position: absolute;
     background-image: url(assetliste/x.svg);
     background-size: cover;
@@ -1195,7 +1195,7 @@ textarea {
     padding-left: 3vw;
     padding-top: 1vw;
 }
-.sendBtn {
+#sendBtn {
     background-image: url(assetliste/knap.svg);
     background-size: cover;
     height: 10vw;
@@ -1236,7 +1236,7 @@ button:hover {
         top: 10vw;
         left: 37.5%;
     }
-    .x {
+    #x {
         width: 1vw;
         height: 1vw;
         top: 1vw;
@@ -1289,7 +1289,7 @@ button:hover {
         padding-left: 1vw;
         padding-top: 0vw;
     }
-    .sendBtn {
+    #sendBtn {
         background-image: url(assetliste/knap.svg);
         background-size: cover;
         height: 10vw;
@@ -1326,6 +1326,16 @@ button:hover {
     height: 100%;
     z-index: 20;
 }
+#x2 {
+    position: absolute;
+    background-image: url(assetliste/x.svg);
+    background-size: cover;
+    width: 4vw;
+    height: 4vw;
+    top: 3vw;
+    left: 83vw;
+    cursor: pointer;
+}
 #besked_sendt .section_wrapper_element {
     position: absolute;
     background-image: url(assetliste/kontaktbg.svg);
@@ -1342,7 +1352,7 @@ button:hover {
 }
 
 /*forms*/
-.sendBtn {
+#tilbage {
     background-image: url(assetliste/knap.svg);
     background-size: cover;
     height: 10vw;
@@ -1368,6 +1378,12 @@ button:hover {
         top: 10vw;
         left: 37.5%;
     }
+    #x2 {
+        width: 1vw;
+        height: 1vw;
+        top: 1vw;
+        left: 23vw;
+    }
     #kontakt_siden #besked_sendt .section_wrapper_element .h2 {
         text-align: center;
         margin-top: 23vw;
@@ -1377,7 +1393,7 @@ button:hover {
         margin-top: -10vw;
         font-size: 3rem;
     }
-    .sendBtn {
+    #tilbage {
         border-radius: 20px;
         height: 3vw;
         width: 9vw;
