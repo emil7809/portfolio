@@ -1039,7 +1039,7 @@
 */
 
     #kontakt_siden .overlay {
-        background-color: rgba(0, 0, 0, 0.08);
+        background-color: rgb(255, 0, 0);
         background-size: cover;
         position: absolute;
         width: 100%;
@@ -1055,6 +1055,16 @@
         top: 20vw;
         left: 5%;
         z-index: 20;
+    }
+    .x {
+        position: absolute;
+        background-image: url(assetliste/x.svg);
+        background-size: cover;
+        width: 4vw;
+        height: 4vw;
+        top: 3vw;
+        left: 83vw;
+        cursor: pointer;
     }
     #kontakt_siden .section_wrapper_element .h2 {
         text-align: center;
@@ -1122,6 +1132,7 @@
         background-color: rgba(0, 255, 255, 0);
         margin-top: 10vw;
         margin-left: 25vw;
+        cursor: pointer;
     }
     button:hover {
         color: #ffffff;
