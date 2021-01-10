@@ -45,21 +45,23 @@ function kontaktKlik() {
     // Ved klik på x element -> x
     document.querySelector("#x").addEventListener("click", x);
 
-    // Ved klik på send element -> sendBeskedKlik
-    document.querySelector("#sendBtn").addEventListener("click", sendBeskedKlik)
+
 
 }
 
-function sendBeskedKlik() {
-    console.log("sendBeskedKlik");
+function takForDinBesked() {
+    console.log("takForDinBesked");
 
-    //Start sendBeskedKlik animation
+    //Start takForDinBesked animation
 
     //Åben messageSendt
     document.querySelector("#besked_sendt").classList.remove("hidden_kontakt");
 
     // Ved klik på x2 element -> x2
     document.querySelector("#x2").addEventListener("click", x2);
+
+    // Ved klik på tilbage element -> tilvage
+    document.querySelector("#tilbage").addEventListener("click", tilbage);
 
 }
 
@@ -99,7 +101,7 @@ function tilbage() {
 
 
     //Luk siden ned
-
+    document.querySelector("#kontakt_siden_container").classList.add("hidden_kontakt");
 
 
 }
