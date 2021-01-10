@@ -103,6 +103,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    z-index: 1;
 }
 h1 {
     font-family: 'Sacramento', cursive;
@@ -1099,6 +1100,36 @@ footer #portfolio_footer #footer_section {
 }
 
 /*Animationer*/
+
+
+/*kontakt*/
+
+
+/*
+#kontakt_siden {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
+*/
+
+#kontakt_siden {
+    position: relative;
+    background-image: url(assetliste/blackhide.svg);
+    width: 100vw;
+    height: 56.25vw;
+    background-repeat: repeat-y;
+}
+#kontakt_siden .section_wrapper_element {
+    position: absolute;
+    background-image: url(assetliste/kontaktbg.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    z-index: 20;
+}
+
+/*kontakt*/
 
 
 /**/
