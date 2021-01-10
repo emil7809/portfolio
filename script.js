@@ -5,6 +5,11 @@ function sidenVises() {
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
     //Start background animation
+    document.querySelector("#unit").classList.add("glow");
+    document.querySelector("#unit2").classList.add("glow2");
+    document.querySelector("#fireflie_container").classList.add("fly");
+    document.querySelector("#fireflie_container2").classList.add("fly2");
+
 
 
     //Start splash Animation
