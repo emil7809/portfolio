@@ -1468,9 +1468,36 @@ footer .icons {
         transform: scale(1.05);
     }
 }
-#forside #portfolio h1 {
-    margin-top: 0px;
-    text-align: center;
+#forside #portfolio a {
+    display: flex;
+    justify-content: center;
+    font-family: 'Sacramento', cursive;
+    color: #D6C97E;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+#forside #portfolio a:hover {
+    animation-name: glowa_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glowa_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw #fff098);
+        transform: scale(1.01);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.5vw #fff098));
+        transform: scale(1.05);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 0.1vw #fff098);
+        transform: scale(1.01);
+    }
 }
 
 /*Portfolio*/
@@ -1484,9 +1511,22 @@ footer .icons {
     margin-top: 50vw;
     width: 80vw;
 }
-#forside #emilyhoolahan .h1 {
+#forside #emilyhoolahan .h1 a {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-top: -70px;
+    font-family: 'Sacramento', cursive;
+    color: #D6C97E;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-top: 5vw;
+}
+#forside #emilyhoolahan a:hover {
+    animation-name: glowa_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
 }
 
 /*Emily Hoolahan*/
@@ -1643,10 +1683,6 @@ footer .icons {
         margin-top: 20vw;
         width: 20vw;
     }
-    #forside #emilyhoolahan .h1 {
-        text-align: center;
-        margin-top: -70px;
-    }
     /*Emily Hoolahan*/
 }
 
@@ -1713,24 +1749,34 @@ video {
         margin-top: 20vw;
         width: 20vw;
     }
+    #emilyhoolahanside h1 {
+        text-align: center;
+        margin-top: 8vw;
+        font-size: 5rem;
+    }
     #emilyhoolahanside #me {
-        height: 50vw;
+        height: 30vw;
         margin-top: 20vw;
+        padding: 10vw;
     }
     #me .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 50vw;
+        height: 40vw;
     }
     #me .section_wrapper .txt {
         display: grid;
         grid-template-rows: 1fr 1fr;
+        margin-right: 80px;
+        margin-top: -25vw;
     }
     #me .section_wrapper .img2 {
-        margin-top: -130px;
+        margin-top: -15vw;
+        margin-left: 5vw;
+        width: 30vw;
     }
     #film {
-        margin-top: 50vw;
+        margin-top: 20vw;
     }
     #film h1 {
         text-align: center;
@@ -1791,6 +1837,12 @@ video {
 }
 #portfolio #tema2 .img {
     margin-top: -60px;
+}
+#tema2 .over p {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
 }
 #portfolio #tema3 {
     height: 200vw;
@@ -1858,6 +1910,10 @@ footer #portfolio_footer #footer_section {
     #tema_nav {
         top: 5vw;
     }
+    #portfolio h2 {
+        text-align: left;
+        font-size: 3rem;
+    }
     /*tema2*/
     #portfolio #tema2 {
         height: 40vw;
@@ -1876,6 +1932,12 @@ footer #portfolio_footer #footer_section {
     }
     #portfolio #tema2 .img {
         margin-top: -10vw;
+    }
+    #tema2 .over p {
+        text-align: right;
+        margin-top: -5.2vw;
+        font-size: 2rem;
+        width: 28.5vw;
     }
     /*tema2*/
     /*tema3*/
@@ -1898,6 +1960,9 @@ footer #portfolio_footer #footer_section {
     }
     #portfolio #tema3 .section_wrapper_1 .img {
         margin-top: -10vw;
+        display: flex;
+        justify-content: center;
+        height: 50vw;
     }
     #portfolio #tema3 .section_wrapper_2 .txt {
         padding-left: 80px;
@@ -1907,7 +1972,7 @@ footer #portfolio_footer #footer_section {
     }
     #portfolio #tema3 .section_wrapper_2 {
         height: 25vw;
-        margin-top: 1vw;
+        margin-top: 10vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -1916,9 +1981,9 @@ footer #portfolio_footer #footer_section {
     }
     #portfolio #tema3 .section_wrapper_3 .txt {
         padding-right: 80px;
-        height: 15vw;
+        height: 10vw;
         margin-top: 1vw;
-        padding-top: 30vw;
+        padding-top: 20vw;
     }
     #portfolio #tema3 .section_wrapper_3 {
         height: 40vw;
@@ -1927,7 +1992,10 @@ footer #portfolio_footer #footer_section {
         grid-template-columns: 1fr 1fr;
     }
     #portfolio #tema3 .section_wrapper_3 .img {
-        margin-top: -5vw;
+        margin-top: -10vw;
+        display: flex;
+        justify-content: center;
+        height: 50vw;
     }
     /*tema3*/
     /*tema4*/
@@ -1939,7 +2007,7 @@ footer #portfolio_footer #footer_section {
         display: grid;
         grid-template-rows: 1fr 1fr;
         padding-right: 80px;
-        height: 55vw;
+        height: 45vw;
         margin-top: 1vw;
     }
     #portfolio #tema4 .section_wrapper_1 {
@@ -1950,6 +2018,9 @@ footer #portfolio_footer #footer_section {
     }
     #portfolio #tema4 .section_wrapper_1 .img {
         margin-top: -10vw;
+        display: flex;
+        justify-content: center;
+        height: 50vw;
     }
     #portfolio #tema4 .section_wrapper_2 .txt {
         padding-left: 80px;
