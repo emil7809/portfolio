@@ -126,6 +126,66 @@ body {
     background-size: cover;
     z-index: 1;
 }
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
 #fireflie_container_h1 {
     text-align: center;
     margin-top: 50vw;
@@ -146,7 +206,7 @@ body {
     position: absolute;
     position: fixed;
     left: 20vw;
-    top: 20vw;
+    top: 5vw;
     width: .5vw;
     height: .5vw;
 }
@@ -164,11 +224,93 @@ body {
 #fireflie_container2 {
     position: absolute;
     position: fixed;
-    left: 20vw;
-    top: 20vw;
+    left: 10vw;
+    top: 7vw;
     width: .5vw;
     height: .5vw;
 }
+#unit3 {
+    position: absolute;
+    position: fixed;
+    left: 30vw;
+    top: 20vw;
+    width: .5vw;
+    height: .5vw;
+    background-color: #f3ef53;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(115, 175, 64, 1), 0 0 15px rgba(94, 159, 61, 1), 0 0 20px rgba(115, 175, 64, 1), 0 0 25px rgba(94, 159, 61, 1);
+}
+#fireflie_container3 {
+    position: absolute;
+    position: fixed;
+    left: 20vw;
+    top: 25vw;
+    width: .5vw;
+    height: .5vw;
+}
+
+/**/
+
+#unit4 {
+    position: absolute;
+    position: fixed;
+    left: 10vw;
+    top: 10vw;
+    width: .3vw;
+    height: .3vw;
+    background-color: #f3ef53;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(115, 175, 64, 1), 0 0 15px rgba(94, 159, 61, 1), 0 0 20px rgba(115, 175, 64, 1), 0 0 25px rgba(94, 159, 61, 1);
+}
+#fireflie_container4 {
+    position: absolute;
+    position: fixed;
+    left: 20vw;
+    top: 20vw;
+    width: .3vw;
+    height: .3vw;
+}
+#unit5 {
+    position: absolute;
+    position: fixed;
+    left: 20vw;
+    top: 20vw;
+    width: .3vw;
+    height: .3vw;
+    background-color: #f3ef53;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(115, 175, 64, 1), 0 0 15px rgba(94, 159, 61, 1), 0 0 20px rgba(115, 175, 64, 1), 0 0 25px rgba(94, 159, 61, 1);
+}
+#fireflie_container5 {
+    position: absolute;
+    position: fixed;
+    left: 20vw;
+    top: 20vw;
+    width: .3vw;
+    height: .3vw;
+}
+#unit6 {
+    position: absolute;
+    position: fixed;
+    left: 30vw;
+    top: 20vw;
+    width: .3vw;
+    height: .3vw;
+    background-color: #f3ef53;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(115, 175, 64, 1), 0 0 15px rgba(94, 159, 61, 1), 0 0 20px rgba(115, 175, 64, 1), 0 0 25px rgba(94, 159, 61, 1);
+}
+#fireflie_container6 {
+    position: absolute;
+    position: fixed;
+    left: 20vw;
+    top: 20vw;
+    width: .3vw;
+    height: .3vw;
+}
+
+/**/
+
 .glow {
     animation-name: glow_kf;
     animation-duration: 4s;
@@ -199,6 +341,28 @@ body {
     animation-timing-function: ease-in-out;
 }
 @keyframes glow2_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+        opacity: 0%;
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+}
+.glow3 {
+    animation-name: glow3_kf;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow3_kf {
     0% {
         filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
     }
@@ -269,6 +433,244 @@ body {
         transform: scale(1, 1) translatex(-10vw);
     }
 }
+.fly3 {
+    animation-name: fly3_kf;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.06, .3, 1.5, 1);
+    animation-fill-mode: alternate-reverse;
+}
+@keyframes fly3_kf {
+    0% {
+        transform: scale(1, 1) translatex(-10vw);
+        ;
+    }
+    25% {
+        transform: scale(1, 1) translatex(-1vw);
+    }
+    50% {
+        transform: scale(1, 1) translatex(20vw);
+    }
+    75% {
+        transform: scale(1, 1) translatex(32vw);
+    }
+    90% {
+        transform: scale(.8, 1.1) translatex(-11vw);
+    }
+    100% {
+        transform: scale(1, 1) translatex(-10vw);
+    }
+}
+.glow4 {
+    animation-name: glow4_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow4_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+        opacity: 0%;
+    }
+}
+.glow5 {
+    animation-name: glow5_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow5_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+        opacity: 0%;
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+}
+.glow6 {
+    animation-name: glow6_kf;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow6_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+        opacity: 0%;
+    }
+}
+.fly4 {
+    animation-name: fly4_kf;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.06, .3, 1.5, 1);
+    animation-fill-mode: alternate-reverse;
+}
+@keyframes fly4_kf {
+    0% {
+        transform: scale(1, 1) translatex(-10vw);
+        ;
+    }
+    25% {
+        transform: scale(1, 1) translatex(-1vw);
+    }
+    50% {
+        transform: scale(1, 1) translatex(20vw);
+    }
+    75% {
+        transform: scale(1, 1) translatex(32vw);
+    }
+    90% {
+        transform: scale(.8, 1.1) translatex(-11vw);
+    }
+    100% {
+        transform: scale(1, 1) translatex(-10vw);
+    }
+}
+.fly5 {
+    animation-name: fly5_kf;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.51, .23, .54, .83);
+    animation-fill-mode: alternate-reverse;
+}
+@keyframes fly5_kf {
+    0% {
+        transform: scale(1, 1) translatex(-10vw);
+        ;
+    }
+    25% {
+        transform: scale(1, 1) translatex(-1vw);
+    }
+    50% {
+        transform: scale(1, 1) translatex(20vw);
+    }
+    75% {
+        transform: scale(1, 1) translatex(32vw);
+    }
+    90% {
+        transform: scale(.8, 1.1) translatex(-11vw);
+    }
+    100% {
+        transform: scale(1, 1) translatex(-10vw);
+    }
+}
+.fly6 {
+    animation-name: fly6_kf;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.06, .3, 1.5, 1);
+    animation-fill-mode: alternate-reverse;
+}
+@keyframes fly6_kf {
+    0% {
+        transform: scale(1, 1) translatex(-10vw);
+        ;
+    }
+    25% {
+        transform: scale(1, 1) translatex(-1vw);
+    }
+    50% {
+        transform: scale(1, 1) translatex(20vw);
+    }
+    75% {
+        transform: scale(1, 1) translatex(32vw);
+    }
+    90% {
+        transform: scale(.8, 1.1) translatex(-11vw);
+    }
+    100% {
+        transform: scale(1, 1) translatex(-10vw);
+    }
+}
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
 h1 {
     font-family: 'Sacramento', cursive;
     color: #D6C97E;
