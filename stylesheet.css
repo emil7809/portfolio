@@ -37,7 +37,7 @@ img {
     height: 7vw;
     left: 30vw;
 }
-#kontakt {
+#kontakt_style {
     background-image: url(assetliste/kontakt.svg);
     position: absolute;
     background-size: cover;
@@ -51,12 +51,6 @@ img {
     padding-top: 2vw;
 */
 }
-
-/*#kontakt a {
-    text-decoration: none;
-    font-size: 1.5rem;
-}*/
-
 .colors {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
