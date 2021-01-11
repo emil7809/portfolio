@@ -188,13 +188,12 @@ body {
 
 #fireflie_container_h1 {
     text-align: center;
-    margin-top: 50vw;
-    margin-bottom: 50vw;
+    z-index: 2;
 }
 #unit {
     position: absolute;
     position: fixed;
-    left: 10vw;
+    left: 1vw;
     top: 10vw;
     width: .5vw;
     height: .5vw;
@@ -205,16 +204,16 @@ body {
 #fireflie_container {
     position: absolute;
     position: fixed;
-    left: 20vw;
-    top: 5vw;
+    left: 1vw;
+    top: 10vw;
     width: .5vw;
     height: .5vw;
 }
 #unit2 {
     position: absolute;
     position: fixed;
-    left: 20vw;
-    top: 20vw;
+    left: 5vw;
+    top: 5vw;
     width: .5vw;
     height: .5vw;
     background-color: #f3ef53;
@@ -224,8 +223,8 @@ body {
 #fireflie_container2 {
     position: absolute;
     position: fixed;
-    left: 10vw;
-    top: 7vw;
+    left: 5vw;
+    top: 5vw;
     width: .5vw;
     height: .5vw;
 }
@@ -308,6 +307,44 @@ body {
     width: .3vw;
     height: .3vw;
 }
+#unit7 {
+    position: absolute;
+    position: fixed;
+    left: 30vw;
+    top: 18vw;
+    width: .5vw;
+    height: .5vw;
+    background-color: #f3ef53;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(115, 175, 64, 1), 0 0 15px rgba(94, 159, 61, 1), 0 0 20px rgba(115, 175, 64, 1), 0 0 25px rgba(94, 159, 61, 1);
+}
+#fireflie_container7 {
+    position: absolute;
+    position: fixed;
+    left: 60vw;
+    top: 20vw;
+    width: .5vw;
+    height: .5vw;
+}
+#unit8 {
+    position: absolute;
+    position: fixed;
+    left: 50vw;
+    top: 49vw;
+    width: .5vw;
+    height: .5vw;
+    background-color: #f3ef53;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(115, 175, 64, 1), 0 0 15px rgba(94, 159, 61, 1), 0 0 20px rgba(115, 175, 64, 1), 0 0 25px rgba(94, 159, 61, 1);
+}
+#fireflie_container8 {
+    position: absolute;
+    position: fixed;
+    left: 50vw;
+    top: 20vw;
+    width: .5vw;
+    height: .5vw;
+}
 
 /**/
 
@@ -368,13 +405,123 @@ body {
     }
     25% {
         filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
-        opacity: 0%;
     }
     50% {
         filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
     }
     100% {
         filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+        opacity: 0%;
+    }
+}
+.glow4 {
+    animation-name: glow4_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow4_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+        opacity: 0%;
+    }
+}
+.glow5 {
+    animation-name: glow5_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow5_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+        opacity: 0%;
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+}
+.glow6 {
+    animation-name: glow6_kf;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow6_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+        opacity: 0%;
+    }
+}
+.glow7 {
+    animation-name: glow7_kf;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow7_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+        opacity: 0%;
+    }
+}
+.glow8 {
+    animation-name: glow8_kf;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glow8_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    25% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
+        opacity: 0%;
     }
 }
 .fly {
@@ -461,72 +608,6 @@ body {
         transform: scale(1, 1) translatex(-10vw);
     }
 }
-.glow4 {
-    animation-name: glow4_kf;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
-}
-@keyframes glow4_kf {
-    0% {
-        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
-    }
-    25% {
-        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
-    }
-    50% {
-        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
-    }
-    100% {
-        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
-        opacity: 0%;
-    }
-}
-.glow5 {
-    animation-name: glow5_kf;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
-}
-@keyframes glow5_kf {
-    0% {
-        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
-        opacity: 0%;
-    }
-    25% {
-        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
-    }
-    50% {
-        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
-    }
-    100% {
-        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
-    }
-}
-.glow6 {
-    animation-name: glow6_kf;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
-}
-@keyframes glow6_kf {
-    0% {
-        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
-    }
-    25% {
-        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
-    }
-    50% {
-        filter: drop-shadow(0px 0px 0.1vw yellow) blur(.1vw);
-    }
-    100% {
-        filter: drop-shadow(0px 0px 1vw yellow) blur(.3vw);
-        opacity: 0%;
-    }
-}
 .fly4 {
     animation-name: fly4_kf;
     animation-duration: 20s;
@@ -609,6 +690,62 @@ body {
     }
     100% {
         transform: scale(1, 1) translatex(-10vw);
+    }
+}
+.fly7 {
+    animation-name: fly7_kf;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.06, .3, 1.5, 1);
+    animation-fill-mode: alternate-reverse;
+}
+@keyframes fly7_kf {
+    0% {
+        transform: scale(1, 1) translatex(10vw);
+        ;
+    }
+    25% {
+        transform: scale(1, 1) translatex(1vw);
+    }
+    50% {
+        transform: scale(1, 1) translatex(-20vw);
+    }
+    75% {
+        transform: scale(1, 1) translatex(-32vw);
+    }
+    90% {
+        transform: scale(.8, 1.1) translatex(11vw);
+    }
+    100% {
+        transform: scale(1, 1) translatex(10vw);
+    }
+}
+.fly8 {
+    animation-name: fly8_kf;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.06, .3, 1.5, 1);
+    animation-fill-mode: alternate-reverse;
+}
+@keyframes fly8_kf {
+    0% {
+        transform: scale(1, 1) translatex(10vw);
+        ;
+    }
+    25% {
+        transform: scale(1, 1) translatex(1vw);
+    }
+    50% {
+        transform: scale(1, 1) translatex(-20vw);
+    }
+    75% {
+        transform: scale(1, 1) translatex(-32vw);
+    }
+    90% {
+        transform: scale(.8, 1.1) translatex(11vw);
+    }
+    100% {
+        transform: scale(1, 1) translatex(10vw);
     }
 }
 
