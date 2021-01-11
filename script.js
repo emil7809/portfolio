@@ -12,13 +12,7 @@ function sidenVises() {
     //fade in trasition
     document.querySelector("body").classList.add("fade_in");
 
-    //Start splash Animation
 
-
-    //Start portfolio animation
-
-
-    //Start emilyHoolahan animation
 
     // Ved klik på kontakt element -> kontaktKlik
     document.querySelector("#kontakt").addEventListener("click", kontaktKlik);
@@ -40,7 +34,7 @@ function myFunctionBurger(x) {
 function kontaktKlik() {
     console.log("kontaktKlik");
 
-    //Start contactKlik animation
+
 
     //Åben kontakt
     document.querySelector("#kontakt_siden_container").classList.remove("remove");
@@ -56,7 +50,7 @@ function kontaktKlik() {
 function takForDinBesked() {
     console.log("takForDinBesked");
 
-    //Start takForDinBesked animation
+
 
     //Åben messageSendt
     document.querySelector("#besked_sendt").classList.remove("remove");
@@ -72,10 +66,6 @@ function takForDinBesked() {
 function x() {
     console.log("x");
 
-    //Start x animation
-
-
-    //Start luk animation
 
 
     //Luk siden ned
@@ -87,10 +77,6 @@ function x() {
 function x2() {
     console.log("x2");
 
-    //Start x animation
-
-
-    //Start luk animation
 
 
     //Luk siden ned
@@ -101,7 +87,7 @@ function x2() {
 function tilbage() {
     console.log("tilbage");
 
-    //Start back animation
+
 
 
     //Luk siden ned

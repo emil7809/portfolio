@@ -1,46 +1,35 @@
-at laver ildfluer, lige nuer  det ikke en permenent løsning at der er img som splash
 
-at vægte p mere så det er læseligt 
 
-NAv kommer til at tage meget mer earbejde 
 
-i JS gør nav støre når burger menu kommer ned
-fin pus X på burger menu
 
-fix billeder så højden passer med gradienten 
 
-logo icon flexe med forside
 
-tilføj bedre pause skærm på film
+
 
 gør noget ved a så det ikke ligner p
 
-soter i px og vw
 
-ryd op i koden
 
 ryd op i gentagende ID på portfolio
 
-make cirkle witch less dark 
 
-fik lille plet på cirkler, kan kun se dem på redesign 
 
-hvorfor er font wight i nav og footer støre på forsiden? 
 
-fik nav så den ikke står på hinanden i portfolio
+
+
+
+fik nav så den ikke står på hinanden i portfolio og forside 
 
 clean up all unnedded code
 
-find en måde at få pdf filer op
 
-fix rings around cirkles on final prototype 
 
-skal billeder på porfolie være mindre?
 
-tilføj tilbage knap på alle opgaver pdf sider 
 
-prøv at fjerne gennemsigtigheden på container i portfolio og emily siden 
 
-SOME skal centreres bedre
 
-spørg martin om hjelp til alt det der skal regnes til at være i midten, så som tilbage knappen og send knappen og portfolio galleriet 
+
+
+
+
+
