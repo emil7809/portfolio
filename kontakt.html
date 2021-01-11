@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
+    <meta name="robots" content="noindex">
+    <title>Forside</title>
     <link rel="stylesheet" href="stylesheet.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -34,15 +35,15 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor velit nec lectus lobortis, et condimentum mi suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac leo pellentesque, pretium est ac, tristique tellus. Nam id egestas neque. Nullam justo tellus, ullamcorper sed porttitor a, rutrum in quam. Sed vel varius massa. Ut rutrum, erat nec blandit consequat, quam magna luctus turpis, venenatis consequat felis enim eget enim. Sed iaculis elementum placerat. Integer euismod in ex ac cursus. Vivamus tristique luctus nulla, ac tincidunt tellus dapibus maximus. Nullam non aliquet turpis, at aliquet mi. Nam finibus imperdiet purus porttitor maximus. Quisque risus nisl, euismod in tempor congue, porttitor in dui. Aliquam in mi et arcu convallis dictum. Nullam a libero a leo placerat egestas eget non lectus. Morbi hendrerit, magna et porttitor feugiat, leo felis blandit ipsum, vitae finibus orci magna at mi. Aliquam nulla nibh, rhoncus eu sapien non, faucibus auctor nunc. Suspendisse at quam consequat, dapibus nisl non, pharetra leo. Vivamus ut auctor risus, tincidunt pulvinar leo. In eu ligula ut orci ultrices ultrices. Vestibulum eu magna risus. Ut gravida justo maximus metus lacinia, nec ultricies libero consectetur. Praesent dictum ac odio et viverra. Etiam at felis eu quam fermentum aliquet lobortis at ipsum. Nulla eleifend tincidunt diam, ut ultricies risus pharetra sit amet. Sed vestibulum ex sed lorem vehicula consectetur. Duis quis vulputate libero. Quisque ultrices aliquet mi, at fermentum nisl vestibulum et. Phasellus quis consectetur mauris, ut consectetur lacus. Nulla quis dui a urna dictum euismod eu vitae diam. Donec in mi ut tortor faucibus gravida. Fusce libero sapien, hendrerit quis cursus a, consectetur ac velit. In id lectus in libero sollicitudin vestibulum eu in turpis. Morbi nunc tellus, sollicitudin eget augue sed, tincidunt feugiat quam. Ut ac molestie odio, ut semper mi. Fusce ullamcorper lacus vitae ex euismod tincidunt. Morbi vel bibendum eros. Cras consectetur magna non tempor mollis. Maecenas at luctus purus. Donec varius ante at suscipit venenatis. Praesent maximus ligula facilisis eros convallis, nec molestie nisl commodo. Vivamus lacinia nisl quis magna vehicula, eget convallis risus tincidunt. Pellentesque at ex vitae purus bibendum ultrices. Duis sollicitudin eleifend ipsum vitae bibendum. Sed imperdiet leo sit amet auctor egestas. Pellentesque velit turpis, congue et lectus et, iaculis lobortis nisl. Morbi tempor metus at libero condimentum aliquam. Duis erat diam, congue eget tristique eu, porttitor feugiat sapien. Nullam pellentesque, tortor eget dictum consequat, augue risus vestibulum sapien, vitae aliquam nisl felis id nisl. Aliquam pulvinar orci ut efficitur porttitor. Nunc non tortor ut lectus iaculis laoreet at at dolor.</p>
     </section>
 
-    <div id="kontakt_siden_container" class="hidden_kontakt">
+    <div id="kontakt_siden_container" class="remove">
         <section id="kontakt_siden">
 
             <div class="section_wrapper_element">
 
 
                 <div class="form_holder">
-                    <form action="">
-                        <div class="x"></div>
+                    <form action="javascript:takForDinBesked()">
+                        <div id="x"></div>
                         <div class="h2">
                             <h2>Kontakt</h2>
                         </div>
@@ -67,21 +68,21 @@
 
                         </div>
                         <div class="form-felt">
-                            <button class="sendBtn">Send</button>
+                            <button id="sendBtn">Send</button>
 
                         </div>
                     </form>
                 </div>
 
             </div>
-            <section id="besked_sendt" class="hidden_kontakt">
+            <section id="besked_sendt" class="remove">
                 <div class="section_wrapper_element">
-                    <div class="x"></div>
+                    <div id="x2"></div>
                     <div class="h2">
                         <h2>Tak for din besked</h2>
                     </div>
                     <div class="button_felt">
-                        <button class="sendBtn">Tilbage</button>
+                        <button id="tilbage">Tilbage</button>
 
                     </div>
                 </div>
