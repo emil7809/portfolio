@@ -2474,8 +2474,6 @@ button:hover {
     }
 }
 
-}
-
 /*Tak for besked*/
 
 /*Animationer*/
@@ -2535,6 +2533,20 @@ button:hover {
     }
     100% {
         transform: translate(0, -0px);
+    }
+}
+.fade_in {
+    animation-name: fade_in_kf;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes fade_in_kf {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
     }
 }
 

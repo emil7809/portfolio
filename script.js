@@ -1,13 +1,16 @@
 window.addEventListener("load", sidenVises);
 
+
+
+
 function sidenVises() {
     console.log("sidenVises");
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
-    //Start background animation
 
 
-
+    //fade in trasition
+    document.querySelector("body").classList.add("fade_in");
 
     //Start splash Animation
 
