@@ -1970,8 +1970,9 @@ footer #portfolio_footer #footer_section {
         margin-top: -10vw;
     }
     #tema2 .over p {
-        text-align: right;
-        margin-top: -5.2vw;
+        text-align: left;
+        margin-top: -50px;
+        margin-left: 20px;
         font-size: 2rem;
         width: 28.5vw;
     }
