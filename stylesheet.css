@@ -858,9 +858,22 @@ a {
     font-weight: 300;
     font-size: 1rem;
     text-decoration: none;
+    display: inline-block;
 }
 a:hover {
     color: #ffffff;
+}
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+a:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 /*Style*/
@@ -1499,6 +1512,13 @@ footer .icons {
         transform: scale(1.01);
     }
 }
+#forside #portfolio a::after {
+    width: 0;
+    height: 0px;
+}
+#forside #portfolio a:hover::after {
+    width: 0%;
+}
 
 /*Portfolio*/
 
@@ -1527,6 +1547,13 @@ footer .icons {
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-timing-function: ease-in-out;
+}
+#forside #emilyhoolahan a::after {
+    width: 0;
+    height: 0px;
+}
+#forside #emilyhoolahan a:hover::after {
+    width: 0%;
 }
 
 /*Emily Hoolahan*/
@@ -1794,6 +1821,9 @@ video {
     margin: 5vw;
     position: relative;
 }
+#portfolio a {
+    font-size: 1.5rem;
+}
 #portfolio #portfolio_splash {
     margin-left: -3vw;
     margin-top: 100px;
@@ -1823,6 +1853,9 @@ video {
 }
 .nav_class a {
     padding: 10px;
+}
+#tema_nav a {
+    font-size: 1rem;
 }
 #tema_nav {
     position: sticky;
@@ -1905,7 +1938,11 @@ footer #portfolio_footer #footer_section {
         margin-top: -35vw;
     }
     .nav_class a {
-        padding: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #tema_nav a {
+        font-size: 1.5rem;
     }
     #tema_nav {
         top: 5vw;
