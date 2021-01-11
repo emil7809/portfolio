@@ -31,7 +31,6 @@ function toggleMenu() {
 }
 
 function myFunctionBurger(x) {
-    console.log("myFunctionBurger");
     x.classList.toggle("change");
 }
 
@@ -41,8 +40,8 @@ function kontaktKlik() {
     //Start contactKlik animation
 
     //Åben kontakt
-    document.querySelector("#kontakt_siden_container").classList.remove("hidden_kontakt");
-    document.querySelector("#besked_sendt").classList.add("hidden_kontakt");
+    document.querySelector("#kontakt_siden_container").classList.remove("remove");
+    document.querySelector("#besked_sendt").classList.add("remove");
 
     // Ved klik på x element -> x
     document.querySelector("#x").addEventListener("click", x);
@@ -57,7 +56,7 @@ function takForDinBesked() {
     //Start takForDinBesked animation
 
     //Åben messageSendt
-    document.querySelector("#besked_sendt").classList.remove("hidden_kontakt");
+    document.querySelector("#besked_sendt").classList.remove("remove");
 
     // Ved klik på x2 element -> x2
     document.querySelector("#x2").addEventListener("click", x2);
@@ -77,8 +76,8 @@ function x() {
 
 
     //Luk siden ned
-    document.querySelector("#kontakt_siden_container").classList.add("hidden_kontakt");
-    document.querySelector("#besked_sendt").classList.add("hidden_kontakt");
+    document.querySelector("#kontakt_siden_container").classList.add("remove");
+    document.querySelector("#besked_sendt").classList.add("remove");
 
 }
 
@@ -92,7 +91,7 @@ function x2() {
 
 
     //Luk siden ned
-    document.querySelector("#kontakt_siden_container").classList.add("hidden_kontakt");
+    document.querySelector("#kontakt_siden_container").classList.add("remove");
 
 }
 
@@ -103,7 +102,7 @@ function tilbage() {
 
 
     //Luk siden ned
-    document.querySelector("#kontakt_siden_container").classList.add("hidden_kontakt");
+    document.querySelector("#kontakt_siden_container").classList.add("remove");
 
 
 }

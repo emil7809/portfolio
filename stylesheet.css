@@ -860,21 +860,6 @@ a {
     text-decoration: none;
     display: inline-block;
 }
-a:hover {
-    color: #ffffff;
-}
-a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #fff;
-    transition: width .3s;
-}
-a:hover::after {
-    width: 100%;
-    transition: width .3s;
-}
 
 /*Style*/
 
@@ -884,6 +869,10 @@ a:hover::after {
 
 /*Nav*/
 
+.hidden {
+    opacity: 0;
+    cursor: pointer;
+}
 nav {
     height: 15px;
     width: 100%;
@@ -925,6 +914,9 @@ nav .section_wrapper {
     padding-right: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     box-shadow: none;
+}
+#menu {
+    margin-left: 30px;
 }
 
 /*burger*/
@@ -983,6 +975,21 @@ nav .section_wrapper {
         width: 32px;
         padding-right: 10px;
     }
+}
+a:hover {
+    color: #ffffff;
+}
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+a:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 /*over600px*/
@@ -2474,10 +2481,9 @@ button:hover {
 /*Animationer*/
 .hidden {
     opacity: 0;
-    opacity: 0;
     cursor: pointer;
 }
-.hidden_kontakt {
+.remove {
     display: none;
 }
 .floating {
