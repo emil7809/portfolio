@@ -3,6 +3,10 @@ html {
 }
 img {
     width: 100%;
+    animation-name: floating3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 /*Styletile*/
@@ -995,6 +999,24 @@ footer .button {
     left: 39vw;
     margin: 5px;
 }
+footer .button:hover {
+    animation-name: glowf_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes glowf_kf {
+    0% {
+        filter: drop-shadow(0px 0px 0vw rgb(167, 31, 99));
+    }
+    50% {
+        filter: drop-shadow(0px 0px 2vw rgb(88, 43, 82));
+    }
+    100% {
+        filter: drop-shadow(0px 0px 0vw rgb(167, 31, 99));
+    }
+}
 .line {
     display: block;
     margin-left: auto;
@@ -1011,10 +1033,9 @@ footer .icons {
     width: 7vw;
 }
 .SoMe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 24%;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (min-width: 600px) {
     footer {
@@ -1117,9 +1138,39 @@ footer .icons {
     height: 130vw;
     cursor: pointer;
 }
+#splash_container:hover {
+    animation-name: clip_away;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+@keyframes clip_away {
+    0% {
+        clip: rect(0px, 12vw, 130vw, 3vw);
+    }
+    100% {
+        clip: rect(0px, 12vw, 130vw, 0vw);
+    }
+}
+#splash_sprite:hover {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
 #ide_container {
     position: absolute;
-    clip: rect(0px, 12vw, 130vw, 3vw);
+    clip: rect(0px, 12vw, 100vw, 3vw);
     left: 11vw;
     top: 3vw;
 }
@@ -1129,6 +1180,36 @@ footer .icons {
     width: 15vw;
     height: 130vw;
     cursor: pointer;
+}
+#ide_container:hover {
+    animation-name: clip_away;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+@keyframes clip_away {
+    0% {
+        clip: rect(0px, 12vw, 130vw, 3vw);
+    }
+    100% {
+        clip: rect(0px, 12vw, 130vw, 0vw);
+    }
+}
+#ide_sprite:hover {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1.05);
+    }
 }
 #prototype_container {
     position: absolute;
@@ -1143,6 +1224,36 @@ footer .icons {
     height: 130vw;
     cursor: pointer;
 }
+#prototype_container:hover {
+    animation-name: clip_away;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+@keyframes clip_away {
+    0% {
+        clip: rect(0px, 12vw, 130vw, 3vw);
+    }
+    100% {
+        clip: rect(0px, 12vw, 130vw, 0vw);
+    }
+}
+#prototype_sprite:hover {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1.05);
+    }
+}
 #pitch_container {
     position: absolute;
     clip: rect(0px, 12vw, 130vw, 3vw);
@@ -1155,6 +1266,36 @@ footer .icons {
     width: 15vw;
     height: 130vw;
     cursor: pointer;
+}
+#pitch_container:hover {
+    animation-name: clip_away;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+@keyframes clip_away {
+    0% {
+        clip: rect(0px, 12vw, 130vw, 3vw);
+    }
+    100% {
+        clip: rect(0px, 12vw, 130vw, 0vw);
+    }
+}
+#pitch_sprite:hover {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1.05);
+    }
 }
 #ass_container {
     position: absolute;
@@ -1169,6 +1310,36 @@ footer .icons {
     height: 130vw;
     cursor: pointer;
 }
+#ass_container:hover {
+    animation-name: clip_away;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+@keyframes clip_away {
+    0% {
+        clip: rect(0px, 12vw, 130vw, 3vw);
+    }
+    100% {
+        clip: rect(0px, 12vw, 130vw, 0vw);
+    }
+}
+#ass_sprite:hover {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1.05);
+    }
+}
 #spil_container {
     position: absolute;
     clip: rect(0px, 12vw, 130vw, 3vw);
@@ -1181,6 +1352,36 @@ footer .icons {
     width: 15vw;
     height: 130vw;
     cursor: pointer;
+}
+#spil_container:hover {
+    animation-name: clip_away;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+@keyframes clip_away {
+    0% {
+        clip: rect(0px, 12vw, 130vw, 3vw);
+    }
+    100% {
+        clip: rect(0px, 12vw, 130vw, 0vw);
+    }
+}
+#spil_sprite:hover {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1.05);
+    }
 }
 #pilot_container {
     position: absolute;
@@ -1195,6 +1396,36 @@ footer .icons {
     height: 130vw;
     cursor: pointer;
 }
+#pilot_container:hover {
+    animation-name: clip_away;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+@keyframes clip_away {
+    0% {
+        clip: rect(0px, 12vw, 130vw, 3vw);
+    }
+    100% {
+        clip: rect(0px, 12vw, 130vw, 0vw);
+    }
+}
+#pilot_sprite:hover {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1.05);
+    }
+}
 #redesign_container {
     position: absolute;
     clip: rect(0px, 12vw, 130vw, 3vw);
@@ -1206,6 +1437,36 @@ footer .icons {
     width: 15vw;
     height: 130vw;
     cursor: pointer;
+}
+#redesign_container:hover {
+    animation-name: clip_away;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+@keyframes clip_away {
+    0% {
+        clip: rect(0px, 12vw, 130vw, 3vw);
+    }
+    100% {
+        clip: rect(0px, 12vw, 130vw, 0vw);
+    }
+}
+#redesign_sprite:hover {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1.05);
+    }
 }
 #forside #portfolio h1 {
     margin-top: 0px;
@@ -1271,14 +1532,13 @@ footer .icons {
     #forside #portfolio #galleri_row {
         position: relative;
         width: 100%;
-        height: 50vw;
+        height: 52vw;
         margin-top: 100;
         margin-bottom: 10px;
         overflow: hidden;
     }
     #splash_container {
         position: absolute;
-        clip: rect(0px, 12vw, 130vw, 3vw);
         left: 11vw;
     }
     #splash_sprite {
@@ -1290,7 +1550,6 @@ footer .icons {
     }
     #ide_container {
         position: absolute;
-        clip: rect(0px, 12vw, 130vw, 3vw);
         left: 19vw;
         top: 3vw;
     }
@@ -1303,7 +1562,6 @@ footer .icons {
     }
     #prototype_container {
         position: absolute;
-        clip: rect(0px, 12vw, 130vw, 3vw);
         left: 27vw;
         top: 1vw;
     }
@@ -1316,7 +1574,6 @@ footer .icons {
     }
     #pitch_container {
         position: absolute;
-        clip: rect(0px, 12vw, 130vw, 3vw);
         left: 35vw;
         top: 2vw;
     }
@@ -1329,7 +1586,6 @@ footer .icons {
     }
     #ass_container {
         position: absolute;
-        clip: rect(0px, 12vw, 130vw, 3vw);
         left: 43vw;
         top: 0vw;
     }
@@ -1342,7 +1598,6 @@ footer .icons {
     }
     #spil_container {
         position: absolute;
-        clip: rect(0px, 12vw, 130vw, 3vw);
         left: 51vw;
         top: 1vw;
     }
@@ -1355,7 +1610,6 @@ footer .icons {
     }
     #pilot_container {
         position: absolute;
-        clip: rect(0px, 12vw, 130vw, 3vw);
         left: 59vw;
         top: 3vw;
     }
@@ -1368,7 +1622,6 @@ footer .icons {
     }
     #redesign_container {
         position: absolute;
-        clip: rect(0px, 12vw, 130vw, 3vw);
         left: 67vw;
     }
     #redesign_sprite {
@@ -1381,6 +1634,7 @@ footer .icons {
     #forside #portfolio h1 {
         margin-top: 50px;
         text-align: center;
+        margin-left: 7vw;
     }
     /*Emily Hoolahan*/
     #forside #emilyhoolahan .img {
@@ -1511,6 +1765,7 @@ video {
 #portfolio #portfolio_splash h1 {
     margin-top: 0px;
     text-align: center;
+    margin-left: 3vw;
 }
 .nav_class {
     height: 10vw;
@@ -2116,6 +2371,57 @@ button:hover {
 }
 .hidden_kontakt {
     display: none;
+}
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+.floating2 {
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating2 {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, -15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+.floating3 {
+    animation-name: floating3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating3 {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
 }
 
 /*Animationer*/
