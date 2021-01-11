@@ -15,7 +15,7 @@ function sidenVises() {
 
 
     // Ved klik på kontakt element -> kontaktKlik
-    document.querySelector("#kontakt_style").addEventListener("click", kontaktKlik);
+    document.querySelector("#kontakt_style").addEventListener("mousedown", kontaktKlik);
 
 
 }
