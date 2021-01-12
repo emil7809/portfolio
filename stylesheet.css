@@ -1198,7 +1198,7 @@ footer .icons {
 }
 #ide_container {
     position: absolute;
-    clip: rect(0px, 12vw, 100vw, 3vw);
+    clip: rect(0px, 12vw, 130vw, 3vw);
     left: 11vw;
     top: 3vw;
 }
@@ -2248,6 +2248,7 @@ video {
     top: 20vw;
     left: 5%;
     z-index: 20;
+    margin-top: -5vw;
 }
 #x {
     position: absolute;
