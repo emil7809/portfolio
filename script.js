@@ -98,6 +98,6 @@ function tilbage() {
 //porfolio galleri skift overskifr kode
 function changeContent(description) {
     console.log(description);
-    let MyDesc = document.getElementById(description);
+    var MyDesc = document.getElementById(description);
     document.getElementById('content').innerHTML = MyDesc.value;
 }
