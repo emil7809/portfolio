@@ -1515,7 +1515,8 @@ footer .icons {
 }
 #forside #portfolio h2 {
     font-family: lato;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 100;
     text-align: center;
     margin-left: 8vw;
     margin-top: -3vw;
@@ -1576,6 +1577,11 @@ footer .icons {
 }
 #forside #emilyhoolahan a:hover::after {
     width: 0%;
+}
+#forside #portfolio h1 {
+    margin-top: 10px;
+    font-size: 3rem;
+    text-align: center;
 }
 
 /*Emily Hoolahan*/
@@ -1720,9 +1726,17 @@ footer .icons {
         cursor: pointer;
     }
     #forside #portfolio h1 {
+        font-size: 5rem;
         margin-top: 50px;
         text-align: center;
         margin-left: 7vw;
+    }
+    #forside #portfolio h2 {
+        font-family: lato;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 8vw;
+        margin-top: -3vw;
     }
     /*Emily Hoolahan*/
     #forside #emilyhoolahan .img {
@@ -1856,18 +1870,21 @@ video {
     font-family: lato;
     font-weight: 300;
     text-align: center;
-    margin-left: 8vw;
-    margin-top: -3vw;
+    margin-left: 3vw;
+    margin-top: -20vw;
+    font-size: 1.5rem;
+    margin-bottom: 20vw;
 }
 #portfolio #portfolio_splash #galleri_row {
     position: relative;
     width: 100%;
     height: 140vw;
-    margin-bottom: 10px;
     overflow: hidden;
 }
 #portfolio #portfolio_splash h1 {
-    margin-top: 0px;
+    padding-top: 1vw;
+    margin-top: 1vw;
+    font-size: 3rem;
     text-align: center;
     margin-left: 3vw;
 }
@@ -1943,9 +1960,6 @@ video {
 #portfolio #tema5 .txt {
     margin-bottom: 40vw;
 }
-footer #portfolio_footer #footer_section {
-    margin-top: 100vw;
-}
 @media only screen and (min-width: 600px) {
     #portfolio img {
         width: 30vw;
@@ -1954,16 +1968,29 @@ footer #portfolio_footer #footer_section {
         margin-top: 10vw;
         height: 100vw;
     }
+    #portfolio #portfolio_splash #galleri_row {
+        height: 50vw;
+    }
     #portfolio #portfolio_splash h1 {
-        margin-top: -89vw;
+        padding-top: 2vw;
+        font-size: 5rem;
         text-align: center;
+        margin-left: 3vw;
+    }
+    #portfolio #portfolio_splash h2 {
+        font-family: lato;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 3vw;
+        margin-top: -5vw;
+        font-size: 3rem;
     }
     .nav_class {
         height: 5vw;
         width: 100vw;
         z-index: 50;
         margin: -5vw;
-        margin-top: -35vw;
+        margin-top: -25vw;
     }
     .nav_class a {
         padding-left: 100px;
@@ -2558,6 +2585,23 @@ button:hover {
     }
     100% {
         transform: translate(0, -0px);
+    }
+}
+.open {
+    animation-name: openkf;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes openkf {
+    0% {
+        transform: scalex(0.5);
+    }
+    90% {
+        transform: scalex(1.2)
+    }
+    100% {
+        transform: scalex(1)
     }
 }
 
