@@ -9,8 +9,7 @@ function sidenVises() {
 
 
 
-    //fade in trasition
-    document.querySelector("body").classList.add("fade_in");
+
 
 
 
