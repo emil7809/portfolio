@@ -867,6 +867,7 @@ a {
     font-size: 1rem;
     text-decoration: none;
     display: inline-block;
+    z-index: 110;
 }
 
 /*Style*/
